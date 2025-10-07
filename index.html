@@ -7,39 +7,45 @@
     <style>
         html, body {
             height: 100%;
-            margin: 1;
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
             font-family: 'Segoe UI', Arial, sans-serif;
             background: #f4f6f8;
             display: flex;
             align-items: center;
             justify-content: center;
         }
-        .container {
-            background: #fff;
-            border-radius: 12px;
-            padding: 48px 32px;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+        .fullpage {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             text-align: center;
-            max-width: 420px;
         }
         h1 {
             color: #2a59a5;
-            margin-bottom: 18px;
+            font-size: 3em;
+            font-weight: 700;
+            margin: 0 0 32px 0;
         }
         p {
             color: #222;
-            font-size: 1.15em;
-            margin-bottom: 0;
+            font-size: 2em;
+            font-weight: 500;
+            margin: 0;
         }
-        @media (max-width: 480px) {
-            .container {
-                padding: 32px 8px;
-            }
+        @media (max-width: 600px) {
+            h1 { font-size: 2em; }
+            p { font-size: 1.1em; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="fullpage">
         <h1>Employer Branding Azerbaijan</h1>
         <p>Every workplace deserves being embrazed.<br>So do you.</p>
     </div>
