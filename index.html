@@ -26,28 +26,49 @@
             justify-content: center;
             text-align: center;
         }
+        .welcome {
+            color: #fff;
+            font-size: 1.6em;
+            font-weight: 600;
+            margin-bottom: 28px;
+            letter-spacing: 1px;
+        }
         h1 {
             color: #fff;
             font-size: 3em;
             font-weight: 700;
-            margin: 0 0 32px 0;
+            margin: 0 0 24px 0;
         }
-        p {
+        .subtitle {
             color: #fff;
             font-size: 2em;
             font-weight: 500;
-            margin: 0;
+            margin: 0 0 32px 0;
+        }
+        .about {
+            color: #fff;
+            font-size: 1.1em;
+            line-height: 1.7;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.93;
         }
         @media (max-width: 600px) {
             h1 { font-size: 2em; }
-            p { font-size: 1.1em; }
+            .subtitle { font-size: 1.1em; }
+            .welcome { font-size: 1.1em; }
+            .about { font-size: 1em; max-width: 90vw; }
         }
     </style>
 </head>
 <body>
     <div class="fullpage">
+        <div class="welcome">Welcome to embraze</div>
         <h1>Employer Branding Azerbaijan</h1>
-        <p>Every workplace deserves being embrazed.<br>So do you.</p>
+        <div class="subtitle">Every workplace deserves being embrazed.<br>So do you.</div>
+        <div class="about">
+            embraze – is the first ever employer branding platform and agency which creates, supports and promotes the most desirable workplaces in Azerbaijan. We are embrazing great workplaces.
+        </div>
     </div>
 </body>
 </html>
